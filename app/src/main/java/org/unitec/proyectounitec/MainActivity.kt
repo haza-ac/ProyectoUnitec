@@ -4,8 +4,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 // El punto de partida de toda app es la MainActivity (Presenter)
 class MainActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+    //fun en kotlin es una palabra reservada para implementar o crear una funcion o metodo
+    override fun onCreate(nombre: Bundle?) {
+        super.onCreate(nombre)
+
+        setContentView(R.layout.ejemplito)
     }
 }
