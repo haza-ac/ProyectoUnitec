@@ -9,5 +9,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(nombre)
 
         setContentView(R.layout.ejemplito)
+
+        //vamos a eliminar la barra de la parte superior del celular, esta barra se conoce como
+        // supportActionBar
+        // compilador del celular se llama Dalvik (en java es la jvm)
+        // Otra cosa hermosa de kotlin es que las sentencias no terminan en ;
+        supportActionBar?.hide()
+
     }
 }
