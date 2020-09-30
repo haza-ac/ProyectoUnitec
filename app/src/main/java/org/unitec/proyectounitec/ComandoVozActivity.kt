@@ -19,7 +19,7 @@ class ComandoVozActivity : AppCompatActivity() {
                 .setAction("Action", null).show()
             // ponemos a vibrar el cel por 3 seg
             var vi= getSystemService(VIBRATOR_SERVICE) as Vibrator
-            vi.vibrate(3000000000)
+            vi.vibrate(3000)
         }
     }
 }
